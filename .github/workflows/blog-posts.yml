@@ -1,0 +1,22 @@
+name: Latest dev.to posts
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # every day, 06:17 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://dev.to/feed/enknot96"
+          max_post_count: 3
+          template: "- [$title]($url) <sub>· $date</sub>$newline"
+          date_format: "mmm d, yyyy"
+          commit_message: "chore: update latest dev.to posts"

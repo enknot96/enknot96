@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">shuto@enknot — zsh</title>
+  <desc id="desc">A terminal session. whoami: Shuto — Web Developer. Ex-sales, now a dev. ls ~/shipped: kokosoko, shotext. cat ~/stack: TypeScript, React, Next.js, Node.js, Laravel.</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 15px; fill: #e6edf3; }
+    .title { font-size: 13px; fill: #8b949e; }
+    .user { fill: #3fb950; font-weight: 600; }
+    .path { fill: #58a6ff; }
+    .sym  { fill: #8b949e; }
+    .muted { fill: #8b949e; }
+    .accent { fill: #d2a8ff; font-weight: 600; }
+    .dir { fill: #58a6ff; font-weight: 600; }
+
+    /* lines that appear instantly at a given delay */
+    .show { opacity: 0; animation: show .01s linear both; }
+    @keyframes show { to { opacity: 1; } }
+
+    /* covers that slide right one character at a time = typing */
+    .t1 { animation: t1 .6s steps(6) .6s both; }
+    .t2 { animation: t2 1s steps(12) 2.3s both; }
+    .t3 { animation: t3 .9s steps(11) 4.4s both; }
+    @keyframes t1 { to { transform: translateX(58px); } }
+    @keyframes t2 { to { transform: translateX(112px); } }
+    @keyframes t3 { to { transform: translateX(103px); } }
+
+    .cursor { animation: blink 1s step-end infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .show, .t1, .t2, .t3 { animation-duration: .01s; animation-delay: 0s; }
+    }
+  </style>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M12.5 0.5 h735 a12 12 0 0 1 12 12 v27.5 h-759 v-27.5 a12 12 0 0 1 12 -12 z" fill="#161b22"/>
+  <line x1="0.5" y1="40" x2="759.5" y2="40" stroke="#30363d"/>
+  <circle cx="24" cy="20.5" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20.5" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20.5" r="6" fill="#28c840"/>
+  <text class="title" x="380" y="25" text-anchor="middle">shuto@enknot — zsh</text>
+
+  <!-- 1: whoami -->
+  <g class="show" style="animation-delay:.2s">
+    <text x="28" y="78" textLength="144" lengthAdjust="spacingAndGlyphs"><tspan class="user">shuto@enknot</tspan><tspan class="path"> ~</tspan><tspan class="sym"> %</tspan></text>
+    <text x="181" y="78" textLength="54" lengthAdjust="spacingAndGlyphs">whoami</text>
+    <rect class="t1" x="180" y="61" width="58" height="23" fill="#0d1117"/>
+  </g>
+  <text class="show" style="animation-delay:1.5s" x="28" y="105" textLength="387" lengthAdjust="spacingAndGlyphs">Shuto — Web Developer. <tspan class="accent">Ex-sales, now a dev.</tspan></text>
+
+  <!-- 2: ls ~/shipped -->
+  <g class="show" style="animation-delay:2s">
+    <text x="28" y="141" textLength="144" lengthAdjust="spacingAndGlyphs"><tspan class="user">shuto@enknot</tspan><tspan class="path"> ~</tspan><tspan class="sym"> %</tspan></text>
+    <text x="181" y="141" textLength="108" lengthAdjust="spacingAndGlyphs">ls ~/shipped</text>
+    <rect class="t2" x="180" y="124" width="112" height="23" fill="#0d1117"/>
+  </g>
+  <text class="show" style="animation-delay:3.6s" x="28" y="168" xml:space="preserve" textLength="360" lengthAdjust="spacingAndGlyphs"><tspan class="dir">kokosoko/</tspan>   <tspan class="dir">shotext/</tspan>   <tspan class="muted">(more on the way)</tspan></text>
+
+  <!-- 3: cat ~/stack -->
+  <g class="show" style="animation-delay:4.1s">
+    <text x="28" y="204" textLength="144" lengthAdjust="spacingAndGlyphs"><tspan class="user">shuto@enknot</tspan><tspan class="path"> ~</tspan><tspan class="sym"> %</tspan></text>
+    <text x="181" y="204" textLength="99" lengthAdjust="spacingAndGlyphs">cat ~/stack</text>
+    <rect class="t3" x="180" y="187" width="103" height="23" fill="#0d1117"/>
+  </g>
+  <text class="show" style="animation-delay:5.6s" x="28" y="231" textLength="432" lengthAdjust="spacingAndGlyphs">TypeScript<tspan class="muted"> · </tspan>React<tspan class="muted"> · </tspan>Next.js<tspan class="muted"> · </tspan>Node.js<tspan class="muted"> · </tspan>Laravel</text>
+
+  <!-- 4: idle prompt -->
+  <g class="show" style="animation-delay:6.1s">
+    <text x="28" y="267" textLength="144" lengthAdjust="spacingAndGlyphs"><tspan class="user">shuto@enknot</tspan><tspan class="path"> ~</tspan><tspan class="sym"> %</tspan></text>
+    <rect class="cursor" x="183" y="252" width="9" height="19" fill="#e6edf3"/>
+  </g>
+</svg>
