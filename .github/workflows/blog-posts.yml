@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "17 21 * * *" # every day, 06:17 JST
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/update-posts.mjs"
+      - ".github/workflows/blog-posts.yml"
 
 permissions:
   contents: write
@@ -13,10 +17,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - uses: actions/setup-node@v4
         with:
-          feed_list: "https://dev.to/feed/enknot96"
-          max_post_count: 3
-          template: "- [$title]($url) <sub>· $date</sub>$newline"
-          date_format: "mmm d, yyyy"
-          commit_message: "chore: update latest dev.to posts"
+          node-version: 22
+      - run: node scripts/update-posts.mjs
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: update latest dev.to posts"
+          git push
