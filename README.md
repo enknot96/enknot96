@@ -38,7 +38,8 @@
 
 ## ✍️ Writing
 
-<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:START -->- [My favorite screenshot extension vanished, so I built my own](https://dev.to/enknot96/my-favorite-screenshot-extension-vanished-so-i-built-my-own-58d5) <sub>· Sep 12, 2026</sub>
+- [I Built a Chrome Extension to Copy Text from YouTube Videos📸](https://dev.to/enknot96/i-built-a-chrome-extension-to-copy-text-from-youtube-videos-2cen) <sub>· Aug 25, 2026</sub>
 <!-- BLOG-POST-LIST:END -->
 
 ## 🧰 Stack
