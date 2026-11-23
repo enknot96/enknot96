@@ -37,8 +37,21 @@
 
 ## ✍️ Writing
 
-<!-- BLOG-POST-LIST:START -->- [My favorite screenshot extension vanished, so I built my own](https://dev.to/enknot96/my-favorite-screenshot-extension-vanished-so-i-built-my-own-58d5) <sub>· Sep 12, 2026</sub>
-- [I Built a Chrome Extension to Copy Text from YouTube Videos📸](https://dev.to/enknot96/i-built-a-chrome-extension-to-copy-text-from-youtube-videos-2cen) <sub>· Aug 25, 2026</sub>
+<!-- BLOG-POST-LIST:START -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://dev.to/enknot96/my-favorite-screenshot-extension-vanished-so-i-built-my-own-58d5"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmnkeouf14owsrs9wgrp3.png" alt="My favorite screenshot extension vanished, so I built my own" width="100%" /></a><br />
+      <a href="https://dev.to/enknot96/my-favorite-screenshot-extension-vanished-so-i-built-my-own-58d5"><b>My favorite screenshot extension vanished, so I built my own</b></a><br />
+      <sub>Sep 12, 2026 · 6 min read · #typescript #javascript #google</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://dev.to/enknot96/i-built-a-chrome-extension-to-copy-text-from-youtube-videos-2cen"><img src="https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9ixqbxslprnjkhu5dm7o.png" alt="I Built a Chrome Extension to Copy Text from YouTube Videos📸" width="100%" /></a><br />
+      <a href="https://dev.to/enknot96/i-built-a-chrome-extension-to-copy-text-from-youtube-videos-2cen"><b>I Built a Chrome Extension to Copy Text from YouTube Videos📸</b></a><br />
+      <sub>Aug 25, 2026 · 4 min read · #typescript #javascript #developer</sub>
+    </td>
+  </tr>
+</table>
 <!-- BLOG-POST-LIST:END -->
 
 ## 🧰 Stack
