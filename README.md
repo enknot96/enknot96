@@ -10,9 +10,8 @@
 
 ## 👋 About
 
-- 🧑‍💻 Ex-sales, now a dev. Based in Japan 🇯🇵
 - 🌏 Lived in 🇦🇺 🇳🇿 🇵🇭 for a year and a half before switching to tech
-- 💼 Web developer by day, indie maker by night
+- 💼 Web developer by day, still learning by night — lately, a lot of AI
 - ⚽ Spent my childhood on the soccer field
 - ⌨️ Happily typing away, every day
 
@@ -43,16 +42,35 @@
 
 ## 🧰 Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,laravel,tailwind,postgres,wordpress,vercel,vite&theme=dark" alt="TypeScript, React, Next.js, Node.js, Laravel, Tailwind CSS, PostgreSQL, WordPress, Vercel, Vite" />
-</p>
-
-**AI** &nbsp;
-<img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel AI SDK" />
-<img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square" alt="OpenAI API" />
-<img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API" />
-
-⚡ **How I build:** Claude Code across parallel git worktrees — one agent writes, another reviews, I decide.
+<table>
+  <tr>
+    <td><b>Web</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/TypeScript-161b22?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/React-161b22?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Next.js-161b22?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+      <img src="https://img.shields.io/badge/Node.js-161b22?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Laravel-161b22?style=flat-square&logo=laravel&logoColor=FF2D20" alt="Laravel" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Vercel_AI_SDK-161b22?style=flat-square&logo=vercel&logoColor=white" alt="Vercel AI SDK" />
+      <img src="https://img.shields.io/badge/OpenAI_API-161b22?style=flat-square" alt="OpenAI API" />
+      <img src="https://img.shields.io/badge/Claude_API-161b22?style=flat-square&logo=claude&logoColor=D97757" alt="Claude API" />
+    </td>
+  </tr>
+  <tr>
+    <td><b>Data & Infra</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/MySQL-161b22?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL" />
+      <img src="https://img.shields.io/badge/PostgreSQL-161b22?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
+      <img src="https://img.shields.io/badge/AWS-161b22?style=flat-square" alt="AWS" />
+    </td>
+  </tr>
+</table>
 
 ---
 
